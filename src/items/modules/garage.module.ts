@@ -8,5 +8,6 @@ import { GarageService } from '../services/garage/garage.service';
   imports: [TypeOrmModule.forFeature([Garage])],
   providers: [GarageService],
   controllers: [GarageController],
+  exports: [GarageService],
 })
 export class GarageModule {}

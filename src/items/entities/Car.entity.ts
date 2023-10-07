@@ -20,7 +20,7 @@ export class Car {
   cylinders: number;
 
   @Column()
-  kilowatts: number;
+  kilowatts: number;a
 
   @Column()
   chdin: string;
